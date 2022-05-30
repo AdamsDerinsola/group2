@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/signin.CSS">
+    <style></style>
+</head>
+<body>
+    <section id="signup-section">
+    <header class="header1">
+        <h1 id="signup-header">Sign up to become a Techlancer</h1>
+    <% if(errors) { %>
+      <% for (const error in errors) { %>
+        <div class="text-danger text-center mb-2"> <%= errors[error] %></div>
+      <% } %>
+    <% } %>
+    
+    <form action="/user" method="POST">
+    <div id="signup-names">
+      <div class="signup-form" id="First-last-name-signup-form">
+        <input type="text" placeholder="First Name" name="firstname"> <input type="text" placeholder="Last Name" name="lastname" >
+      </div>
+      </div>
+        <div class="signup-form" id="signup-email-address">
+          <input type="email" placeholder="Email Address" name="email" >
+        </div>
+            <div class="signup-form" id="signup-username">
+                <input type="text" placeholder="Username" name="username" >
+             </div> 
+                <div class="signup-form" id="signup-password">
+                   <input type="text" placeholder="Password" name="password">
+                </div> 
+                   <div class="signup-form" id="signup-confirm-password">  
+                       <input type="text" placeholder="Confirm-Password" name="confirm_password" >
+                   </div>
+                       <div class="signup-form" id="signup-nationality">     
+                          <input type="text" placeholder="Nationality" name="nationality" >
+                       </div> 
+                           <div class="signup-form" id="signup-Terms">                        
+                             <input type="checkbox" id="signup-checkbox" name="signup-checkbox" value="">
+                             <label for="signup-checkbox">Yes, I understand and agree to the TRUSS <a href="a"> Terms & Condition</a> and <a href="a"> Privacy Policy</a></label>
+                            </div> 
+                               <div class="signup-form" id="signup-create-account">
+                                   <input type="submit" value="Create Account">
+                                </div> 
+                                     <div class="signup-form" id="account">
+                                        <p> Already have an Account? <a href="a">log in here</a></p>
+                                      </div>
+         </form>
+        </section>
+         </header>
+        </body>
+        </html>

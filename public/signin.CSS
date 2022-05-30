@@ -1,0 +1,81 @@
+/* signup style  */
+#signup-section {
+    width: 50%;
+    margin: 5em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.1em;
+}
+.header1 {
+   text-align: center;
+   font-size: 2em;
+   margin-top: 2em;
+   font-weight: bolder;
+}
+
+.text-danger { color: red }
+
+section h1 + form {
+    width: 70%;
+    margin: 2em  auto;
+}
+#First-last-name-signup-form input {
+    width: 98%;
+    margin: 0.2em 0 2em;
+    padding: 1em;
+    border-radius: 1em;
+}
+#signup-email-address input {
+    width: 100%;
+    margin: 0.2em 0 2em;
+    padding: 1em;
+    border-radius: 1em; 
+}
+ #signup-username input {
+    width: 98%;
+    margin: 0.2em 0 2em;
+    padding: 1em;
+    border-radius: 1em;
+ }
+#signup-password input {
+    width: 98%;
+    margin: 0.2em 0 2em;
+    padding: 1em;
+    border-radius: 1em;
+}
+#signup-confirm-password input {
+    width: 98%;
+    margin: 0.2em 0 2em;
+    padding: 1em;
+    border-radius: 1em;
+}
+#signup-nationality input {
+    width: 98%;
+    margin: 0.2em 0 2em;
+    padding: 1em;
+    border-radius: 1em;
+}
+#signup-Terms {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.3cm;
+}
+#signup-create-account {
+    width: 100%;
+    margin: 0.2em 0 3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    border-style: none;
+    background-color:blue;
+    color: white;
+}
+#account {
+    text-align: center;
+    width: 98%;
+    margin: 0.2em 0 2em;
+    font-size: 0.4cm;
+    padding: 0.5em;
+    
+
+}
